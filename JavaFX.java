@@ -25,9 +25,29 @@ public class main extends Application {
         Label labelEa = new Label("E-Mail Address ");
         Label labelCn = new Label("Contact No ");
         Label labelPw = new Label("Password ");
-        Label labelCp = new Label("Confirm Password");                
+        Label labelCp = new Label("Confirm Password");
+        
+        tf1.setPrefWidth(300);
+        tf1.setPrefHeight(30);
+        
+        tf2.setPrefWidth(300);
+        tf2.setPrefHeight(30);
+        
+        tf3.setPrefWidth(300);
+        tf3.setPrefHeight(30);                
+        
+        tf4.setPrefWidth(300);
+        tf4.setPrefHeight(30);                
+        
+        tf5.setPrefWidth(300);
+        tf5.setPrefHeight(30);                
+        
+        tf6.setPrefWidth(300);
+        tf6.setPrefHeight(30);                
         
         regist.setText("Register");
+        regist.setStyle("-fx-text-fill: #FFFFFF");
+        regist.setStyle("-fx-background-color: #0000FF");
         
         Group root = new Group();
         HBox panel1 = new HBox();
@@ -99,5 +119,4 @@ public class main extends Application {
     public static void main(String[] args) {
         launch(args);
     }
-    
 }
